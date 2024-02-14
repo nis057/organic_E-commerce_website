@@ -1,0 +1,427 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+
+}
+body
+        {
+            background: lightgrey;
+        }
+
+.nav
+{
+    background: url(../img/gettyimages-176637276-612x612.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    
+}
+.navbar
+{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.sidebar
+{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.377);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    backdrop-filter: blur(10px);
+
+
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+  }
+  
+  nav li {
+    list-style: none;
+    height: 70px;
+  }
+  
+  nav a {
+    color: black;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+    text-decoration: none;
+    color: green;
+    text-transform: capitalize;
+    font-style: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+  }
+  
+  nav a:hover {
+    background-color:rgb(45, 46, 45);
+    color:rgb(90, 241, 90);
+  }
+
+  h1
+  {
+    color:green;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 700;
+    margin: 20px;
+    letter-spacing: 5px;
+  }
+
+  span
+  {
+    color: green;
+  }
+.header
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.header .head-body
+
+{
+    color: white;
+    text-align: center;
+    font-size: 5.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+p
+{
+    
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn
+{
+    display: block;
+    color: rgb(88, 241, 88);
+    background: transparent;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+.btn a
+{
+    
+    color: black;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-style: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 600;
+}
+
+.header .btn:hover,
+a:hover
+{
+    color: green;
+}
+
+/*  card section  */
+
+.card
+{
+    background-color: rgb(235, 234, 234);
+    height: 100vh;
+    margin-top: 5%;
+}
+
+.card
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+}
+.card-container
+{
+    height: 100%;
+    width: auto;
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card-img img
+{
+    height: 200px;
+    width: 420px;
+}
+
+.card-head
+{
+    color: black;
+    text-align: left;
+}
+
+.card-para
+{
+    color: black;
+    text-align: left;
+    padding: 10px;
+}
+
+.card-btn {
+    display: flex;
+    color: rgb(88, 241, 88);
+    background: transparent;
+    text-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    justify-content: center; 
+}
+
+.card-btn a {
+    color: rgb(39, 252, 74);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Georgia, "Times New Roman", Times, serif; 
+}
+
+.card-btn:hover,
+.card-btn a
+{
+    background-color: black;
+    color: lightgreen;
+}
+
+.about
+{
+    background-image: url(img/yakov-leonov-0wWYos3ZGqU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    margin-top: 5%;
+}
+.info
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.info-head
+{
+    margin-top: 5%;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.8rem;
+}
+
+.service
+{
+    height: 100vh;
+    margin:5%;
+}
+.services
+{
+     display: grid;
+     grid-template-columns: auto auto auto;
+    align-items: center;
+}
+.services:hover {
+    transform: translateY(-20px); 
+}
+.service-card
+{
+    background-color:white;
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+.service-card:hover
+{
+    transform: translateY(-20px) ;
+    background-color: aqua;
+}
+.service-head
+{
+    color: black;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+
+.service-para
+{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer
+{
+    background:  url(img/carrots-1851424_640.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
+    height: 50vh;
+}
+.contact
+{
+    color:black;
+}
+.footer-para
+{
+    color:lightgreen;
+}
+.footer-card
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer-links
+{
+    
+    margin: 10px;
+    height: 300px;
+    border-radius: 10px;
+}
+.list
+{
+    margin: 10px;
+    padding: 0px 80px;
+}
+.list li
+{
+    margin: 10px;
+}
+
+.list li a
+{
+    text-transform: capitalize;
+    color: rgb(14, 10, 10);
+}
+
+.list li a:hover
+{
+    color: lightgreen;
+}
+
+
+.input-with-button {
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    margin: 10px 40px;
+    
+}
+
+.input-with-button input[type="text"] {
+    padding-right: 40px; 
+    width: 200px; 
+    height: 50px;
+    text-transform: capitalize;
+}
+
+.input-with-button button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100px;
+    background-color: rgb(32, 221, 32);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+}
+
+.copy {
+    text-align: center;
+    color: white;
+}
+
+.copy a {
+    color: white;
+    margin: 0 5px; /* Adjust spacing between icons */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+.fa-brands 
+{
+    font-size: 2.2rem;
+    color: black;
+}
+
+.fa-brands:hover {
+    color:blue;
+}
+
+
+@media (max-width:1200px)
+{
+    .services
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+.footer
+{
+    position: relative;
+    margin-top:230%;
+    height: 100%;
+
+}
+
+.sidebar
+{
+    display: block;
+}
+.onmobile
+{
+    display: none;
+}
+
+}
